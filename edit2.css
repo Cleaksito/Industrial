@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@200&display=swap');
+/* Reset de estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-ser:;
+    background: white;
+    line-height: 1.6;
+    margin: 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+
+.header {
+    min-height: 90vh;
+    color: #FFFFFF; /* Blanco */
+    padding: 30px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    color: #fff;
+}
+
+.menu ul li a {
+    font-size: 25px;
+    padding: 25px;
+    color: #000000;
+}
+
+.menu ul li a:hover {
+    color: #808080;
+
+}
+
+/* Estilos del logo */
+
+.logo img {
+    max-width: 80px;
+    height: auto;
+}
+
+#menu{
+    display: none;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+/* Estilos del contenido */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.header-content .header-txt {
+    width: 50%;
+    font-size: 15px;
+    padding-right: 30px;
+    color: #000000;
+}
+
+.header-content h1 {
+    font-size: 4em;
+    margin-bottom: 35px;
+    font-weight: bold;
+    color: #000000; /* Cambio de color de texto del encabezado */
+}
+.header-content .header-txt p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.boton-1 {
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    color: white;
+    background: #222;
+    border-radius: 7px;
+    transition: background 0.3s ease;
+}
+
+.boton-1:hover {
+    background: #444;
+}
+
+.header-content .header-img img {
+    max-width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de las secciones */
+
+.seccion2,
+.seccion3 {
+    padding: 50px 0;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 20px;
+    border: 1px solid #cccccc; /* Gris claro */
+}
+
+.info-table h2 {
+    color: #2c3e50; /* Azul oscuro */
+}
+
+/* Estilos para la sección 2 */
+/* Estilos para la sección 2 - Descripción */
+.info-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.info-table td {
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    background-color: #eaf4e9; /* Cambié el color de fondo a un tono verde suave */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-table td:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.info-table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-table img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-table h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.info-table p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Estilos adicionales para mejorar la responsividad */
+@media (max-width: 768px) {
+    .info-table td {
+        display: block;
+        text-align: center;
+    }
+
+    .info-table img {
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    .info-table h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .info-table p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para la sección 3 */
+/* Estilos mejorados para la clase seccion3 y sus elementos secundarios */
+
+/* Estilos generales para la clase seccion3 */
+.seccion3 {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los encabezados h3 dentro de la seccion3 */
+.seccion3 h3 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para los párrafos p dentro de la seccion3 */
+.seccion3 p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los elementos de lista ul y li dentro de la seccion3 */
+.seccion3 ul {
+  padding: 0;
+}
+
+.seccion3 li {
+  margin-bottom: 12px;
+  color: #666;
+}
+
+/* Estilos para los enlaces a dentro de la seccion3 */
+.seccion3 a {
+  color: #009688;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.seccion3 a:hover {
+  color: #00796b;
+}
+
+
+/* Estilos para la sección "Contactos" */
+
+#Contactos {
+    background-color: #eaeaea; /* Fondo gris */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.cform {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cform h2 {
+    color: #2c3e50; /* Azul oscuro */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cform label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555; /* Texto gris */
+}
+
+.cform input[type="text"],
+.cform input[type="tel"],
+.cform input[type="email"],
+.cform textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Borde gris claro */
+}
+
+.cform textarea {
+    height: 120px;
+}
+
+.cform input[type="submit"] {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición de color al hacer hover */
+}
+
+.cform input[type="submit"]:hover {
+    background-color: #1e2b35; /* Color de hover más oscuro */
+}
+
+.footer-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.redes-sociales2 a {
+    display: inline-block;
+    margin: 0 10px;
+}
